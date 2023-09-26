@@ -82,7 +82,7 @@ const GlobalStyles = createGlobalStyle`
     --image-opacity: 90%;
   }
 
-    /* Indigo
+    //Indigo
   --color-brand-50: #eef2ff;
   --color-brand-100: #e0e7ff;
   --color-brand-200: #c7d2fe;
@@ -90,15 +90,15 @@ const GlobalStyles = createGlobalStyle`
   --color-brand-600: #4f46e5;
   --color-brand-700: #4338ca;
   --color-brand-800: #3730a3;
-  --color-brand-900: #312e81; */
-    --color-brand-50: #e7f6ec;
+  --color-brand-900: #312e81;
+    /* --color-brand-50: #e7f6ec;
   --color-brand-100: #cfedd8;
   --color-brand-200: #b7e4c5;
   --color-brand-500: #9fdbb2;
   --color-brand-600: #88d29f;
   --color-brand-700: #70c98b;
   --color-brand-800: #58c078;
-  --color-brand-900: #40b765;
+  --color-brand-900: #40b765; */
 
   --border-radius-slim: 5px;
   --border-radius-tiny: 30px;
