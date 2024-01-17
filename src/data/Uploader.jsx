@@ -128,17 +128,17 @@ function Uploader() {
 
   return (
     <div
-      onDoubleClick={()=> setShowUploader(cur => !cur)}
+      onDoubleClick={() => setShowUploader((cur) => !cur)}
       style={{
-        marginTop: "auto",
-        backgroundColor: "#e0e7ff",
-        padding: "8px",
-        borderRadius: "5px",
-        textAlign: "center",
-        display: "flex",
-        flexDirection: "column",
-        gap: "8px",
-        viaibility: showUploader ? 'visible' : 'hidden'
+        marginTop: 'auto',
+        backgroundColor: '#e0e7ff',
+        padding: '8px',
+        borderRadius: '5px',
+        textAlign: 'center',
+        display: 'flex',
+        flexDirection: 'column',
+        gap: '8px',
+        visibility: showUploader ? 'visible' : 'hidden',
       }}
     >
       <h3>SAMPLE DATA</h3>
@@ -151,7 +151,7 @@ function Uploader() {
         Upload bookings ONLY
       </Button>
     </div>
-  );
+  )
 }
 
 export default Uploader;
