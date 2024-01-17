@@ -138,7 +138,7 @@ function Uploader() {
         display: 'flex',
         flexDirection: 'column',
         gap: '8px',
-        visibility: showUploader ? 'visible' : 'hidden',
+        opacity: showUploader ? 1 : 0,
       }}
     >
       <h3>SAMPLE DATA</h3>
