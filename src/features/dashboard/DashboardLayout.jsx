@@ -24,7 +24,7 @@ export default function DashboardLayout() {
 
   return (
     <StyledDashboardLayout>
-      <Stats bookings={bookings} confirmedStays={confirmedStays} numDays={numDays} cabinsCount={cabins.length}/>
+      <Stats bookings={bookings} confirmedStays={confirmedStays} numDays={numDays} cabinsCount={cabins?.length}/>
       <TodayActivity/> 
       <DurationChart confirmedStays={confirmedStays}/>
       <SalesChart bookings={bookings} numDays={numDays}/>

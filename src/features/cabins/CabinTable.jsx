@@ -13,7 +13,7 @@ export default function CabinTable() {
 
   if (isLoading) return <Spinner />
 
-    if (!cabins.length) return <Empty resource='cabins' />
+    if (!cabins?.length) return <Empty resource='cabins' />
 
 
   // FILTER
