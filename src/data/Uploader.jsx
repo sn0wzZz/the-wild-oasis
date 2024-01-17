@@ -102,6 +102,7 @@ async function createBookings() {
 
 function Uploader() {
   const [isLoading, setIsLoading] = useState(false);
+  const [showUploader, setShowUploader] = useState(false)
 
   async function uploadAll() {
     setIsLoading(true);
@@ -127,6 +128,7 @@ function Uploader() {
 
   return (
     <div
+      onDoubleClick={()=> setShowUploader(cur => !cur)}
       style={{
         marginTop: "auto",
         backgroundColor: "#e0e7ff",
@@ -136,6 +138,7 @@ function Uploader() {
         display: "flex",
         flexDirection: "column",
         gap: "8px",
+        viaibility: showUploader ? 'visible' : 'hidden'
       }}
     >
       <h3>SAMPLE DATA</h3>

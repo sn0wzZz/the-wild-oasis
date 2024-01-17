@@ -19,18 +19,13 @@ const StyledSidebar = styled.aside`
 `
 
 export default function Sidebar() {
-  const [showUploader, setShowUploader] = useState(false)
+  
 
   return (
     <StyledSidebar>
       <Logo />
       <MainNav />
-      <div
-        onDoubleClick={() => setShowUploader((cur) => !cur)}
-        style={{ visibility: showUploader ? 0 : 1 }}
-      >
         <Uploader />
-      </div>
     </StyledSidebar>
   )
 }
